@@ -1,0 +1,22 @@
+﻿  Pracownik.cpp
+d:\projects\project2\project2\pracownik.cpp(22): error C2511: 'void Pracownik::wyswietl(void) const': overloaded member function not found in 'Pracownik'
+  d:\projects\project2\project2\pracownik.h(5): note: see declaration of 'Pracownik'
+d:\projects\project2\project2\pracownik.cpp(23): error C2352: 'Osoba::wyswietl': illegal call of non-static member function
+  d:\projects\project2\project2\osoba.h(34): note: see declaration of 'Osoba::wyswietl'
+d:\projects\project2\project2\pracownik.cpp(24): error C2597: illegal reference to non-static member 'Pracownik::indeks'
+d:\projects\project2\project2\pracownik.cpp(25): error C2597: illegal reference to non-static member 'Pracownik::pensja'
+  Klient.cpp
+d:\projects\project2\project2\klient.h(25): error C2143: syntax error: missing ';' before '}'
+d:\projects\project2\project2\klient.cpp(24): error C2509: 'wyswietl': member function not declared in 'Klient'
+  d:\projects\project2\project2\klient.h(6): note: see declaration of 'Klient'
+d:\projects\project2\project2\klient.cpp(32): error C2509: 'dochod': member function not declared in 'Klient'
+  d:\projects\project2\project2\klient.h(6): note: see declaration of 'Klient'
+  Dostawca.cpp
+d:\projects\project2\project2\dostawca.h(20): error C3668: 'Dostawca::wyswietl': method with override specifier 'override' did not override any base class methods
+d:\projects\project2\project2\dostawca.cpp(22): error C2662: 'void Osoba::wyswietl(void)': cannot convert 'this' pointer from 'const Dostawca' to 'Osoba &'
+  d:\projects\project2\project2\dostawca.cpp(22): note: Conversion loses qualifiers
+d:\projects\project2\project2\dostawca.cpp(29): error C2556: 'void Dostawca::dochod(void) const': overloaded function differs only by return type from 'double Dostawca::dochod(void) const'
+  d:\projects\project2\project2\dostawca.h(22): note: see declaration of 'Dostawca::dochod'
+d:\projects\project2\project2\dostawca.cpp(29): error C2371: 'Dostawca::dochod': redefinition; different basic types
+  d:\projects\project2\project2\dostawca.h(22): note: see declaration of 'Dostawca::dochod'
+  Generating Code...
