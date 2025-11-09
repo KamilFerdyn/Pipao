@@ -24,8 +24,8 @@ void testDzialaniePlus() {
     // Dodanie funkcji: f1 + f2 = (2 * x + 3) + (x + 5)
     Funktor f3 = f1 + f2;
 
-    cout << "Funkcja f3(1) = " << f3(1.0) << endl;  // Obliczanie wartoœci f3 dla x = 1
-    cout << "Funkcja f3(2) = " << f3(2.0) << endl;  // Obliczanie wartoœci f3 dla x = 2
+    cout << "Funkcja f3(1) = " << f3(1.0) << endl;  // Obliczanie wartoÅ›ci f3 dla x = 1
+    cout << "Funkcja f3(2) = " << f3(2.0) << endl;  // Obliczanie wartoÅ›ci f3 dla x = 2
 }
 
 
@@ -35,11 +35,11 @@ void testDzialanieRazy() {
     Funktor f1 = 2 * x + 3;  // Funkcja f1 = 2 * x + 3
     Funktor f2 = x + 5;      // Funkcja f2 = x + 5
 
-    // Mno¿enie funkcji: f1 * f2 = (2 * x + 3) * (x + 5)
+    // MnoÅ¼enie funkcji: f1 * f2 = (2 * x + 3) * (x + 5)
     Funktor f3 = f1 * f2;
 
-    cout << "Funkcja f3(1) = " << f3(1.0) << endl;  // Obliczanie wartoœci f3 dla x = 1
-    cout << "Funkcja f3(2) = " << f3(2.0) << endl;  // Obliczanie wartoœci f3 dla x = 2
+    cout << "Funkcja f3(1) = " << f3(1.0) << endl;  // Obliczanie wartoÅ›ci f3 dla x = 1
+    cout << "Funkcja f3(2) = " << f3(2.0) << endl;  // Obliczanie wartoÅ›ci f3 dla x = 2
 }
 
 
@@ -53,8 +53,8 @@ void testDzialanieDziel() {
     // Dzielenie funkcji: f1 / f2 = (2 * x + 3) / (x + 5)
     Funktor f3 = f1 / f2;
 
-    cout << "Funkcja f3(1) = " << f3(1.0) << endl;  // Obliczanie wartoœci f3 dla x = 1
-    cout << "Funkcja f3(2) = " << f3(2.0) << endl;  // Obliczanie wartoœci f3 dla x = 2
+    cout << "Funkcja f3(1) = " << f3(1.0) << endl;  // Obliczanie wartoÅ›ci f3 dla x = 1
+    cout << "Funkcja f3(2) = " << f3(2.0) << endl;  // Obliczanie wartoÅ›ci f3 dla x = 2
 }
 
 
@@ -91,3 +91,4 @@ int main()
 
  return 0;
 }
+
